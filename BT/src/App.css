@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item .nav-link {
+  padding: 15px;
+}
+
+.fa-cart-shopping {
+  position: relative;
+}
+
+.fa-cart-shopping+span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.m-menu {
+  width: 230px;
+  background-color: #393a3d;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.m-menu a {
+  color: #efe3e3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.m-logo-container {
+  height: 56px;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-logo-icon {
+  height: 56px;
+  width: 100%;
+  border-right: 1px solid #dadada;
+}
+
+.m-menu-item {
+  height: calc(100vh - 62px);
+  overflow: auto;
+}
+
+.m-item-router {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-right: 14px;
+  padding-left: 8px;
+  border-left: 6px solid transparent;
+  position: relative;
+}
+
+.m-item-router.active::before,
+.m-item-router:hover::before {
+  content: "";
+  color: #fff;
+  background: rgb(212, 215, 220);
+  opacity: 0.2;
+  width: calc(100% + 6px);
+  height: 50px;
+  left: -6px;
+  top: 0px;
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .m-item-router .m-item-title {
+    display: none;
+  }
+
+  .m-menu {
+    width: 48px;
+  }
+
+  .m-logo-icon {
+    height: 70px;
+  }
+
+  .collapse {
+    left: 8px;
+  }
+
+  .collapse .m-item-title {
+    display: none;
+  }
+
+  .m-navbar {
+    height: 48px !important;
+  }
+}
+
+.m-icon-15-fs {
+  margin-right: 8px;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #f4f4f45b;
+  padding: 40px;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: rgba(3, 3, 3, 0.2) 0px 7px 29px 0px;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #007bff;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.back-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.back-home:hover {
+  background-color: #e0e0e0;
+}

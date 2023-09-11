@@ -1,0 +1,28 @@
+[
+    {
+        "product_id":1,
+        "product_name": "Đai lưng",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp",
+        "price": 50000,
+        "description": "Đai lưng thời trang cho nam và nữ. Sản phẩm này làm từ chất liệu da tổng hợp cao cấp, chất lượng đảm bảo. Thiết kế đơn giản nhưng vô cùng thời trang, phù hợp cho mọi dịp và trang phục. Dễ dàng điều chỉnh độ rộng để phù hợp với bạn. Đai lưng là một phụ kiện không thể thiếu trong tủ đồ của bạn.",
+        "quantity": 999
+},
+    {
+        "product_id":2,
+        "product_name": "Set đồ đi chơi",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp",
+        "price": 2500000,
+        "description": "Bộ quần áo thun đơn giản và thoải mái, phù hợp cho cả nam và nữ. Sản phẩm này được làm từ chất liệu cotton mềm mại, giúp bạn cảm thấy thoải mái suốt cả ngày. Thiết kế cổ tròn và tay ngắn, phù hợp cho nhiều hoàn cảnh, từ hàng ngày đến đi dạo và thậm chí là thể thao nhẹ.",
+        "quantity": 999
+
+},
+    {
+        "product_id":3,
+        "product_name": "Giày nike hồng",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).webp",
+        "price": 1990000,
+        "description": "Giày nike chính hãng, với thiết kế duyên dáng dễ thương đi cùng với một màu hồng nhẹ rất phù hợp với các bạn nữ, làm tăng sự duyên dáng dễ thương, trẻ trung và năng động.",
+        "quantity": 999
+
+}
+]
